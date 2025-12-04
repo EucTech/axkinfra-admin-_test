@@ -13,7 +13,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-auto bg-[#E5E5E5]">
         <Navbar />
-        <div className="w-full h-full pt-[96px]">{children}</div>
+        <div className="w-full h-full pt-24">{children}</div>
       </div>
     </div>
   );
